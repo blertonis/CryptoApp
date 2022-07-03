@@ -1,0 +1,387 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  color:white;
+  -moz-osx-font-smoothing: grayscale;
+  background-color:#191919 !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.container{
+
+
+  max-width:900px;
+  margin:0 auto;
+ padding-left:30px;
+ padding-right:30px;
+
+}
+.header{
+  display:grid;
+  grid-template-columns: repeat(2,1fr);
+  align-items: center;
+
+  
+}
+
+.thead{
+  font-weight: bold;
+ box-shadow: 0px 0px 2px #1a1a1a;;
+  background-color:#252526;
+  margin-top:1rem;
+  color:white;
+  display:flex;
+  justify-content: space-between;
+  flex-grow:1;
+  align-items: center;
+  text-align:center;
+  padding-top:5px;
+  padding-bottom:5px;
+}
+
+.thead .coincol{
+  text-align: center;
+
+}
+
+.thead.crypto-list{
+  text-align: center;
+
+  background-color:#252526;  margin-top:1rem;
+  color:white;
+  display:flex;
+  justify-content: space-between;
+  flex-grow:1;
+  font-weight:normal;
+  align-items: center;
+
+  padding-top:4px;
+  padding-bottom:4px;
+  margin-top:5px;
+}
+
+.crypto-row{display:flex;
+justify-content: space-between;
+justify-content: space-between;
+flex-grow:1;
+align-items: center;
+text-align: center;
+
+}
+
+.symbol{
+  border:1px solid red;
+
+}
+
+button{
+  background-color: 	#007acc;
+  color:white;
+  border:0;
+  border-radius:5px;
+  margin:0 auto;
+  padding:1rem;
+}
+
+h1{
+  color:white;
+  margin-bottom:30px;
+}
+
+.coincol{
+  display:flex;
+  align-items: center;
+}
+.coincol img,.small-image{
+  width:25px;
+}
+
+.container-middle{
+  max-width:980px;
+  margin:0 auto;
+  display: flex;
+  justify-content: center;
+  margin-top:10px;
+  margin-bottom:35px;
+}
+
+#crypto{
+  color:#007acc;
+}
+
+h1{
+  text-align:center;
+}
+
+h1.highlight{
+  text-align:left;
+}
+#cc{
+  justify-self: end;
+  color:white;
+}
+button:hover{
+  cursor:pointer;
+  background-color:#008fef;
+}
+
+.coin-container{
+  max-width:400px;
+  margin:0 auto;
+background-color:#252526;
+padding-left:1rem;
+padding-right:1rem;
+  display: flex;
+  padding-top:15px;
+  padding-bottom:15px;
+}
+
+.coin-container  > div{
+  flex-grow:1;
+
+}
+
+.coin-symbol{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.coin-symbol .rank{
+  background-color:#3861FB;
+  font-weight:bold;
+  padding-left:3px;
+  padding-right:3px;
+  font-size:10px;
+  
+
+}
+.vvv{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.coin-symbol .small-image{
+  display:flex;
+  justify-content: center;
+  flex-flow:row;
+}
+ .coin-price{
+  display:flex;
+  justify-content: flex-end;
+  font-size:17px;
+  font-weight:bold;
+}
+
+.pos{
+  color:#83e8db;
+}
+.neg{
+  color:#ea3943;
+}
+
+#search{
+ text-align:right;
+  justify-self: end;
+}
+
+ul li{
+  list-style-type:none;
+  display:inline;
+}
+ul li a{
+  text-decoration:none;
+  color:white;
+  
+  font-weight:bold;
+}
+
+#search{
+
+
+  
+
+  
+
+  border-radius:3px;
+  color:#ccc;
+}
+
+input[type="text"]{
+  border:0;
+  padding:7px;
+  background-color:#2d2d2d;
+}
+
+.search-box{
+  display:flex;
+  justify-content: space-between;
+  margin-bottom:10px;
+}
+
+table{
+  width:100%;
+  outline:0;
+  border:0;
+
+ 
+  border-spacing:0px 5px;
+
+}
+
+table thead{
+  background-color:#2d2d2d ;
+}
+td,tr{
+  border:0;
+  
+}
+.rank{
+  text-align:center !important;
+}
+.mrk_cap{
+  text-align:right;
+}
+tr:hover{
+  cursor:pointer;
+  background-color:#2a2a2a;
+  transition-property: all;
+  transform:scale(1.05);
+  transition-duration: 0.5s;
+}
+
+tr{
+  background-color:#252526;
+  margin-bottom:5px !important;
+}
+
+table td{
+  vertical-align:middle !important;  
+  height:40px;
+}
+img{
+  width:22px;
+  margin-top:6px;
+}
+
+.qwerty{
+  max-width:400px;
+  display:grid;
+  align-items: center;
+  
+  gap:1rem;
+  grid-template-columns: repeat(4,1fr);
+
+}
+
+
+.rank-coin{
+      justify-self: center;
+
+}
+
+.qwerty-1{
+  max-width:400px;
+  display:grid;
+  background-color:#2d2d2d;
+  grid-template-columns: repeat(3,1fr);
+   align-items: center;
+   padding-top:13px;
+   padding-bottom:13px;
+   margin:0 auto;
+
+}
+.bold{
+font-weight:bold;
+}
+
+.qwerty-2{
+max-width:400px;
+margin:0 auto;
+  display:grid;
+  background-color:#2d2d2d;
+  grid-template-columns: repeat(2,1fr);
+   align-items: center;
+   padding-top:15px;
+   padding-bottom:15px;
+}
+
+.qwerty-3{
+  max-width:400px;
+  display:grid;
+  background-color:#2d2d2d;
+  grid-template-columns: repeat(4,1fr);
+   align-items: center;
+   padding-top:13px;
+   padding-bottom:13px;
+   margin:0 auto;
+
+}
+.qwerty-1 > div{
+    justify-self: center;
+
+}
+
+.qwerty-2 > div{
+    justify-self: center;
+
+}
+.qwerty-3 > div{
+  justify-self: center;
+
+}
+
+#highlgiht{
+  color:#3861FB;
+}
+.rank-coin{
+	background-color:#3861FB;
+	font-size:16px;padding:5px;
+    justify-self:center;
+}
+.symbol-icon{
+flex-direction:column;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+.text-wrapper{
+  max-width:400px;
+  background-color:#2d2d2d;
+  padding:5px;
+  box-sizing:border-box;
+  margin-top:6px;
+  margin:0 auto;
+}
+
+.text-center{
+  text-align:center;
+}
+
+@media screen and (max-width:650px){
+    .hide-mobile{
+      display:none;
+    }
+    table.tb{
+      width:100% !important;
+ 
+    }
+}
+
+#aaaa{
+  background-color:#2d2d2d !important;
+  margin-bottom:25px;
+}
+
+table.tb{
+  width:70%;
+  margin:0 auto;
+}
